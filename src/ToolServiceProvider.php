@@ -1,12 +1,12 @@
 <?php
 
-namespace Ofcold\NovaSortable;
+namespace Pkaratanev\NovaSortable;
 
 use Laravel\Nova\Nova;
 use Laravel\Nova\Events\ServingNova;
 use Illuminate\Support\Facades\Route;
 use Illuminate\Support\ServiceProvider;
-use Ofcold\NovaSortable\Http\Middleware\Authorize;
+use Pkaratanev\NovaSortable\Http\Middleware\Authorize;
 
 class ToolServiceProvider extends ServiceProvider
 {
@@ -22,7 +22,7 @@ class ToolServiceProvider extends ServiceProvider
         });
 
         Nova::serving(function (ServingNova $event) {
-            Nova::script('ofcold-nova-sortable', __DIR__.'/../dist/js/tool.js');
+            Nova::script('pkaratanev-nova-sortable', __DIR__.'/../dist/js/tool.js');
         });
     }
 

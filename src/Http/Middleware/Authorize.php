@@ -1,9 +1,9 @@
 <?php
 
-namespace Ofcold\NovaSortable\Http\Middleware;
+namespace Pkaratanev\NovaSortable\Http\Middleware;
 
 use Laravel\Nova\Nova;
-use Ofcold\NovaSortable\NovaSortable;
+use Pkaratanev\NovaSortable\NovaSortable;
 
 class Authorize
 {

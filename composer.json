@@ -1,5 +1,5 @@
 {
-    "name": "ofcold/nova-sortable",
+    "name": "pkaratanev/nova-sortable",
     "description": "A Laravel Nova tool.",
     "keywords": [
         "laravel",
@@ -11,13 +11,13 @@
     },
     "autoload": {
         "psr-4": {
-            "Ofcold\\NovaSortable\\": "src/"
+            "Pkaratanev\\NovaSortable\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Ofcold\\NovaSortable\\ToolServiceProvider"
+                "Pkaratanev\\NovaSortable\\ToolServiceProvider"
             ]
         }
     },

@@ -1,10 +1,8 @@
 <?php
 
-namespace Ofcold\NovaSortable;
-
+namespace Pkaratanev\NovaSortable;
 
 use Illuminate\Database\Eloquent\Builder;
-
 
 trait SortableTrait
 {
